@@ -357,7 +357,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 <blockquote>
 <p><strong>NOTE:</strong> Scroll down the page and you will able to get the JsessionID value</p>
 </blockquote>
-<ol start="12">
+<ol start="11">
 <li>Check <a href="https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#metricsV2:graph=~%28metrics~%28~%28~%27WAF~%27BlockedRequests~%27WebACL~%27SecurityAutomationsMaliciousRequesters~%27Rule~%27SecurityAutomationsHttpFloodRule%29~%28~%27...~%27SecurityAutomationsSqlInjectionRule%29~%28~%27...~%27SecurityAutomationsXssRule%29%29~view~%27timeSeries~stacked~false~region~%27us-east-1~stat~%27Sum~period~300~start~%27-P3D~end~%27P0D%29;namespace=WAF;dimensions=Rule,WebACL">AWS WAF ACL metric</a> to observe total number of blocks<br>
 <img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CloudWatch.png" alt="enter image description here"></li>
 </ol>
