@@ -353,13 +353,6 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </blockquote>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/congrats.png" alt="enter image description here"></p>
 </li>
-<li>
-<p>Simulating <strong>DOS Attack:</strong></p>
-<p>Run following script in your bash shell</p>
-<pre><code>COUNT=0; while true; do echo $COUNT; curl -I 'http://&lt;cloudfront endpoint&gt;/WebGoat/attack?Screen=360466308&amp;menu=5' --cookie 'JSESSIONID=&lt;replace this web cookie value – check your web browser cookie&gt;'; COUNT=$((COUNT+1)); done
-</code></pre>
-<p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/DDOS.png" alt="enter image description here"></p>
-</li>
 </ol>
 <blockquote>
 <p><strong>NOTE:</strong> Scroll down the page and you will able to get the JsessionID value</p>
