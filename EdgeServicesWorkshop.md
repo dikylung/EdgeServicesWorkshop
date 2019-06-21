@@ -102,6 +102,8 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <li>
 <p>Go to <a href="https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId>Security Group Console</a></p>
 </li>
+
+<p>Create Security Group (For ALB)</p>
 <li>
 
     Security group name: “EdgeServiceLab-ALB”
@@ -378,7 +380,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTkxMzQ4OCwtOTYyODAzOTQyLC05Nj
-I4MDM5NDIsLTUzMzA0Mjg0MSwtMTI1NjU4NDg1NSwtMTI1NjU4
-NDg1NV19
+eyJoaXN0b3J5IjpbLTE3MTA3MDc3MTEsLTk2MjgwMzk0MiwtOT
+YyODAzOTQyLC01MzMwNDI4NDEsLTEyNTY1ODQ4NTUsLTEyNTY1
+ODQ4NTVdfQ==
 -->
