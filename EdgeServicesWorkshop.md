@@ -100,7 +100,7 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <p><strong>Instructions how to build webapp environment</strong></p>
 <ol>
 <li>
-<p>Go to [enter link description hewwwre](https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId)</p>
+<p>Go to https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId</p>
 </li>
 <li>
 <p>At your computer, download the <a href="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/webapp-launch.sh">bash script</a> &amp; save as <code>webapp-launch.sh</code></p>
@@ -369,6 +369,6 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzU0NTQ4MiwtOTYyODAzOTQyLC01Mz
+eyJoaXN0b3J5IjpbLTk2MjgwMzk0MiwtOTYyODAzOTQyLC01Mz
 MwNDI4NDEsLTEyNTY1ODQ4NTUsLTEyNTY1ODQ4NTVdfQ==
 -->
