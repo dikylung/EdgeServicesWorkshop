@@ -477,8 +477,29 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 <li>Check <a href="https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#metricsV2:graph=~%28metrics~%28~%28~%27WAF~%27BlockedRequests~%27WebACL~%27SecurityAutomationsMaliciousRequesters~%27Rule~%27SecurityAutomationsHttpFloodRule%29~%28~%27...~%27SecurityAutomationsSqlInjectionRule%29~%28~%27...~%27SecurityAutomationsXssRule%29%29~view~%27timeSeries~stacked~false~region~%27us-east-1~stat~%27Sum~period~300~start~%27-P3D~end~%27P0D%29;namespace=WAF;dimensions=Rule,WebACL">AWS WAF ACL metric</a> to observe total number of blocks<br>
 <img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CloudWatch.png" alt="enter image description here"></li>
 
-<ol><li>
+<ol start="12"><li>
 Test out DoS attack against site – 2 request every second.
+
+    while true; do curl -kI 'https://<cloudfront url>.cloudfront.net/WebGoat/css/main.css' ; sleep 0.5; done
+
+Before WAF Kicks in:
+
+
+    HTTP/2 200
+    content-type: text/css
+    content-length: 19986
+    date: Fri, 21 Jun 2019 14:47:48 GMT
+    server: Apache-Coyote/1.1
+    accept-ranges: bytes
+    etag: W/"19986-1479487864000"
+    last-modified: Fri, 18 Nov 2016 16:51:04 GMT
+    x-cache: Miss from cloudfront
+    via: 1.1 da489b11345e43d716acd157abedfe47.cloudfront.net (CloudFront)
+    x-amz-cf-pop: KUL50
+    x-amz-cf-id: zJ1NoOBWSWwv6JGRz0oRrtFl4Zi9On9BCBeS4wBz5W6d6lQnhSwGHA==
+
+Afger
+
 </li>
 
 </ol>
@@ -487,7 +508,7 @@ Test out DoS attack against site – 2 request every second.
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQyMTg4MjQsLTE0MjA0MzM0MDNdfQ
-==
+eyJoaXN0b3J5IjpbLTU2NTI4MDcyOSwtMTQyMDQzMzQwM119
 -->
