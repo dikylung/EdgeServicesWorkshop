@@ -391,7 +391,7 @@ Select Newly Created WebACL
 	    Resource: <Select Cloudfront Resource>
 	    Click “Add”
 
-<h3 id="one-minute-analysis-waf">Analyze WAF Logs Every Minute"</h3>
+<h3 id="one-minute-analysis-waf">Analyze WAF Logs Every Minute</h3>
 
 Go to https://us-east-1.console.aws.amazon.com/firehose/home?region=us-east-1#/dashboard/list
 
@@ -529,5 +529,5 @@ After WAF Kicks in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTM2NzI3N119
+eyJoaXN0b3J5IjpbLTE0Nzg3NzkyNzddfQ==
 -->
