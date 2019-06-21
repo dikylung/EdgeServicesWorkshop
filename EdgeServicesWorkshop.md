@@ -378,6 +378,9 @@ e) Click Create Behaviour
 <hr>
 <h1 id="how-cloudfront-improves-performance-and-waf-secures-your-environment">How Cloudfront improves performance and WAF secures your environment</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/ContentsWAFOverview.png" alt="enter image description here"></p>
+
+<h3 id="serving-content-via-aws-cloudfront-and-having-aws-waf-securing-your-environment">Associate AWS WAF with AWS Clou</h3>
+
 <h3 id="serving-content-via-aws-cloudfront-and-having-aws-waf-securing-your-environment">Serving Content via AWS Cloudfront and Having AWS WAF Securing your Environment</h3>
 <p><strong>Static Content Cached</strong></p>
 <p>Run the following at your terminal:</p>
@@ -470,5 +473,5 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyMzI2OTQyLC0xNDIwNDMzNDAzXX0=
+eyJoaXN0b3J5IjpbLTc1MDg4MDI5NCwtMTQyMDQzMzQwM119
 -->
