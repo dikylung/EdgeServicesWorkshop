@@ -100,18 +100,18 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <p><strong>Instructions how to build webapp environment</strong></p>
 <ol>
 <li>
-<p>Go to https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId</p>
+<p> <a href="Go to https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId</a></p>
 </li>
 <li>
 
-Security group name: “EdgeServiceLab-ALB”
-Description: “EdgeServiceLab-ALB”
-VPC: “fill in VPCID from Cloudformation output”
-Then, CREATE.
-Select newly created Security Group
-Select Inbound Rules -> Edit Rules -> Add Rules
-Select-> Type: HTTP
-Save Rules
+    Security group name: “EdgeServiceLab-ALB”
+    Description: “EdgeServiceLab-ALB”
+    VPC: “fill in VPCID from Cloudformation output”
+    Then, CREATE.
+    Select newly created Security Group
+    Select Inbound Rules -> Edit Rules -> Add Rules
+    Select-> Type: HTTP
+    Save Rules
 
 </li>
 <li>
@@ -378,7 +378,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzgyNjgyOSwtOTYyODAzOTQyLC05Nj
+eyJoaXN0b3J5IjpbMTgxNDkyNTc3MiwtOTYyODAzOTQyLC05Nj
 I4MDM5NDIsLTUzMzA0Mjg0MSwtMTI1NjU4NDg1NSwtMTI1NjU4
 NDg1NV19
 -->
