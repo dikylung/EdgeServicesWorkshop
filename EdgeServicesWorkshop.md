@@ -103,6 +103,9 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <p>At your computer, download the <a href="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/webapp-launch.sh">bash script</a> &amp; save as <code>webapp-launch.sh</code></p>
 </li>
 <li>
+<p>At your computer, download the <a href="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/webapp-launch.sh">bash script</a> &amp; save as <code>webapp-launch.sh</code></p>
+</li>
+<li>
 <p>Replace the ‘bracketed section’ of the bash script with the values that you obtained from the cloudformation output (in previous section), i.e.  <code>VPCID</code>, <code>PrivateSubnet1AID</code>, <code>PublicSubnet1ID</code>, and <code>PublicSubnet2ID</code></p>
 </li>
 <li>
@@ -363,6 +366,6 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTY1ODQ4NTUsLTEyNTY1ODQ4NTVdfQ
-==
+eyJoaXN0b3J5IjpbODU3NDY4NTUzLC0xMjU2NTg0ODU1LC0xMj
+U2NTg0ODU1XX0=
 -->
