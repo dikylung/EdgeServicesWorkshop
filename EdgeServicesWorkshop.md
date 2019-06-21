@@ -189,7 +189,7 @@ Review and Launch
 	    Port: 80
 	    Health Check Protocol: HTTP
 	    Health Check Path: “/”
-	    Advanced Health Check Setting:
+	Advanced Health Check Setting:
 	    Port: override: 80
 	    Healthy Threshold: 2
 	    Unhealthy Threshold: 2
@@ -526,5 +526,5 @@ After WAF Kicks in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzMTQ4MTcyXX0=
+eyJoaXN0b3J5IjpbNTE0NDk1MjQ0LDI5MzE0ODE3Ml19
 -->
