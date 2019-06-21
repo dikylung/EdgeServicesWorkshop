@@ -165,20 +165,15 @@ Proceed without keypair
 </li>
 
 <li> Launch ALB
-<p>Go to <a href>https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#V2CreateELBWizard:type=application](https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#V2CreateELBWizard:type=application):></a>
+<p>Go to <a href=https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#V2CreateELBWizard:type=application](https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#V2CreateELBWizard:type=application):>ALB Wizard</a>
 
     Configure Load Balancer
-    
     Name: Lab-ALB
-    
     Availability Zones:
-    
     VPC: <Cloudformation output>
-    
     Availability Zones:
-    
-    Select ap-southeast-1a: Public Subnet 1A
-    
+	    Select ap-southeast-1a: Public Subnet 1A
+   
     Select ap-southeast-1b: Public Subnet 2A
     
     Configure Security Groups
@@ -493,7 +488,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIyNzQ0MzcsLTk2MjgwMzk0MiwtOT
-YyODAzOTQyLC01MzMwNDI4NDEsLTEyNTY1ODQ4NTUsLTEyNTY1
-ODQ4NTVdfQ==
+eyJoaXN0b3J5IjpbMTA1NTY5NTEyOCwtOTYyODAzOTQyLC05Nj
+I4MDM5NDIsLTUzMzA0Mjg0MSwtMTI1NjU4NDg1NSwtMTI1NjU4
+NDg1NV19
 -->
