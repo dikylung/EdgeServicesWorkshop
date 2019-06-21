@@ -381,14 +381,15 @@ e) Click Create Behaviour
 
 <h3 id="associating-waf-with-cloudfront">Associate AWS WAF with AWS Cloudfront</h3>
 
-Go to [https://console.aws.amazon.com/waf/home#/webacls](https://console.aws.amazon.com/waf/home#/webacls)
+Go to https://console.aws.amazon.com/waf/home#/webacls
+
 Select Newly Created WebACL
 
-Select “Rules” Tab
-Click “Add Association”
-Resource Type: Cloudfront
-Resource: <Select Cloudfront Resource>
-Click “Add”
+    Select “Rules” Tab
+    Click “Add Association”
+	    Resource Type: Cloudfront
+	    Resource: <Select Cloudfront Resource>
+	    Click “Add”
 
 <h3 id="serving-content-via-aws-cloudfront-and-having-aws-waf-securing-your-environment">Serving Content via AWS Cloudfront and Having AWS WAF Securing your Environment</h3>
 <p><strong>Static Content Cached</strong></p>
@@ -482,6 +483,5 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzg2MDA2NDAsLTE0MjA0MzM0MDNdfQ
-==
+eyJoaXN0b3J5IjpbLTQ3MTUzNDU3NywtMTQyMDQzMzQwM119
 -->
