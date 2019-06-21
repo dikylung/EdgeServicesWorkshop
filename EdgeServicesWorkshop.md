@@ -498,7 +498,17 @@ Before WAF Kicks in:
     x-amz-cf-pop: KUL50
     x-amz-cf-id: zJ1NoOBWSWwv6JGRz0oRrtFl4Zi9On9BCBeS4wBz5W6d6lQnhSwGHA==
 
-Afger
+After WAF Kicks in
+
+    HTTP/2 403
+    server: CloudFront
+    date: Fri, 21 Jun 2019 14:49:45 GMT
+    content-type: text/html
+    content-length: 560
+    x-cache: Error from cloudfront
+    via: 1.1 ae9efac1cae1b07bcb1c97d186b5ab00.cloudfront.net (CloudFront)
+    x-amz-cf-pop: KUL50
+    x-amz-cf-id: aHa1S7t0fQt47DxqgIDkLCiafvh28y1TTTrXY9eNHzD4Gjo9wk_SWg==
 
 </li>
 
@@ -510,5 +520,5 @@ Afger
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTI4MDcyOSwtMTQyMDQzMzQwM119
+eyJoaXN0b3J5IjpbMjYwMTc4NzI5XX0=
 -->
