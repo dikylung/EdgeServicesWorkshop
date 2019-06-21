@@ -210,10 +210,11 @@ Then, Create
 <h3 id="create-the-owasp-waf-acl">Create the WAF ACL</h3>
 <ol>
 <li>
-<p>Go to <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-1#/stacks/new?stackName=AWSWAFSecurityAutomations&amp;templateURL=https:%2F%2Fs3.amazonaws.com%2Fsolutions-reference%2Faws-waf-security-automations%2Flatest%2Faws-waf-security-automations.template">AWS Console &gt; CloudFormation (Region: Singapore)</a></p>
+<p>Go to <a href="
+https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=AWSWAFSecurityAutomations&templateURL=https:%2F%2Fs3.amazonaws.com%2Fsolutions-reference%2Faws-waf-security-automations%2Flatest%2Faws-waf-security-automations.template">AWS Console &gt; CloudFormation (Region: N.Virginia)</a></p>
 </li>
 <li>
-<p>Name your WAF Stack as <code>&lt;name&gt;waf</code>. For an example “fabiantanwaf”.</p>
+<p>Name your WAF Stack as <code>AWSWAFSecurityAutomations</code>. 
 </li>
 <li>
 <p>Fill up Cloudfront Access Log Bucket Name.</p>
@@ -460,6 +461,5 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQyOTYzNjQsLTE4NDI3ODI4MDZdfQ
-==
+eyJoaXN0b3J5IjpbMTAwMDk2ODM1NSwtMTg0Mjc4MjgwNl19
 -->
