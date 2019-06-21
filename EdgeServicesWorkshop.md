@@ -114,7 +114,7 @@ Then, CREATE.
     Select newly created Security Group
     Select Inbound Rules -> Edit Rules -> Add Rules
 	    Select-> Type: HTTP
-	    Save Rules
+Save Rule
 
 </li>
 
@@ -198,23 +198,9 @@ Proceed without keypair
 	    On port: 8080
 	    Click “Add to Registered”
     
-**Create**
-
-</li>
+Then, Create
 
 
-<li>
-<p>At your computer, download the <a href="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/webapp-launch.sh">bash script</a> &amp; save as <code>webapp-launch.sh</code></p>
-</li>
-<li>
-<p>Replace the ‘bracketed section’ of the bash script with the values that you obtained from the cloudformation output (in previous section), i.e.  <code>VPCID</code>, <code>PrivateSubnet1AID</code>, <code>PublicSubnet1ID</code>, and <code>PublicSubnet2ID</code></p>
-</li>
-<li>
-<p>Run <code>chmod +x webapp-launch.sh</code>.</p>
-</li>
-<li>
-<p>Run it as bash <code>./webapp-launch.sh &lt;keypair-name&gt;</code></p>
-</li>
 </ol>
 <h1 id="create-an-edge-to-accelerate-and-protect-your-web-app">Create an Edge to Accelerate and Protect your Web App</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CreateAnEdge.png" alt="enter image description here"></p>
@@ -468,7 +454,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2MjI5NTM0LC05NjI4MDM5NDIsLTk2Mj
-gwMzk0MiwtNTMzMDQyODQxLC0xMjU2NTg0ODU1LC0xMjU2NTg0
-ODU1XX0=
+eyJoaXN0b3J5IjpbLTU1Mjc4Mjk5OSwtOTYyODAzOTQyLC05Nj
+I4MDM5NDIsLTUzMzA0Mjg0MSwtMTI1NjU4NDg1NSwtMTI1NjU4
+NDg1NV19
 -->
