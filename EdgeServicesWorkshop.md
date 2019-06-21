@@ -116,6 +116,7 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
     Save Rules
 
 </li>
+
 <li>
 <p>Create Security Group (For EC2)</p>
 
@@ -402,7 +403,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYxNDIzNzMsLTk2MjgwMzk0MiwtOT
-YyODAzOTQyLC01MzMwNDI4NDEsLTEyNTY1ODQ4NTUsLTEyNTY1
-ODQ4NTVdfQ==
+eyJoaXN0b3J5IjpbMTQ1MTU3NzcwOSwtOTYyODAzOTQyLC05Nj
+I4MDM5NDIsLTUzMzA0Mjg0MSwtMTI1NjU4NDg1NSwtMTI1NjU4
+NDg1NV19
 -->
