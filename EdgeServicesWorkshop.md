@@ -232,12 +232,6 @@ https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?
 
 </li>
 <li>
-<p>Fill up Cloudfront Access Log Bucket Name.</p>
-<blockquote>
-<p>Create a new S3 bucket for this. WAF deployment will fail should it has certain config associated to it.</p>
-</blockquote>
-</li>
-<li>
 <p>Click “Next” and “Next”.</p>
 </li>
 <li>
@@ -476,5 +470,5 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTY5MDM5MCwtMTg0Mjc4MjgwNl19
+eyJoaXN0b3J5IjpbMTE4NTUyNzAxOF19
 -->
