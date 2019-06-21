@@ -391,6 +391,8 @@ Select Newly Created WebACL
 	    Resource: <Select Cloudfront Resource>
 	    Click “Add”
 
+<h3 id="Analyze WAF Logs Every Minute to Enable Blacklisting in 1-minute">Associate AWS WAF with AWS Cloudfront</h3>
+
 <h3 id="serving-content-via-aws-cloudfront-and-having-aws-waf-securing-your-environment">Serving Content via AWS Cloudfront and Having AWS WAF Securing your Environment</h3>
 <p><strong>Static Content Cached</strong></p>
 <p>Run the following at your terminal:</p>
@@ -517,5 +519,5 @@ After WAF Kicks in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDMxMjgwMV19
+eyJoaXN0b3J5IjpbLTExODg0MzQ2MDgsLTU0MDMxMjgwMV19
 -->
