@@ -437,7 +437,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 <p>i) Read description - Fill up the “Enter your last name:” with “Smith”. Observe that you’re getting a success “200” response on Chrome Developer Tool</p>
 <p>ii) Now for the attack on the Database! Fill up the “Enter your last name:” with “Smith’ or ‘x’='x”.</p>
 <blockquote>
-<p>Observe that your SQL Injection on the vulnerable website has been blocked with Chrome Developer Tool</p>
+<p>Observe that your SQL Injection on the vulnerable website has been blocked on the Chrome Developer Tool</p>
 </blockquote>
 </li>
 <li>
@@ -445,14 +445,14 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 <p>i) Read description - Fill up the “Title:” with “Saying Hello!”, “Message:” with “Just wanted to say hi - since I’m new here”.  Observe that you’re getting a success “200” response.</p>
 <p>ii) Now, for the attack on the Database! Fill up the “Title:” with “Saying Hello Again!”, “Message:” with <code>Just wanted to say hi - since I'm new here&lt;script language="javascript" type="text/javascript"&gt;alert("Uploading a malicious script into the forum. Hopefully I can capture some sensitive data");&lt;/script&gt;.</code></p>
 <blockquote>
-<p>Observe that your XSS attack on the vulnerable website has been blocked with Chrome Developer Tool</p>
+<p>Observe that your XSS attack on the vulnerable website has been blocked on the Chrome Developer Tool</p>
 </blockquote>
 </li>
 <li>
 <p>On the left hand side, select <strong>“Cross Site Scripting (XSS)”</strong> and then select “Reflected XSS Attack”</p>
 <p>i) Fill up the “Enter your three digit access code:” with <code>111&lt;script&gt; var test = "username=John Smith; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";alert(test)&lt;/script&gt;</code></p>
 <blockquote>
-<p>Observe that you’ve successfully executed a XSS attack on the vulnerable website.</p>
+<p>Observe that your XSS attack on the vulnerable website has been blocked on the Chrome Developer Tool.</p>
 </blockquote>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/congrats.png" alt="enter image description here"></p>
 </li>
@@ -470,5 +470,5 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjA0MzM0MDNdfQ==
+eyJoaXN0b3J5IjpbNDAyMzI2OTQyLC0xNDIwNDMzNDAzXX0=
 -->
