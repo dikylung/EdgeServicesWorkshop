@@ -111,9 +111,11 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
     VPC: “fill in VPCID from Cloudformation output”
 Then, CREATE.
     
-    Select newly created Security Group
+Next, select newly created Security Group
+
     Select Inbound Rules -> Edit Rules -> Add Rules
-	    Select-> Type: HTTP
+        Select-> Type: HTTP
+
 Save Rule
 
 </li>
@@ -157,11 +159,11 @@ Select newly created Security Group
     Step7: Review Instance Launch
 	    Edit Security Group
 	    Select an existing security group
-	    Select “EdgeServiceLab-EC2”
+		    Select “EdgeServiceLab-EC2”
 Review and Launch
 
     Select a keypair or create new key pair
-Proceed without keypair
+    Proceed without keypair
 
 </li>
 
@@ -453,8 +455,11 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Mjc4Mjk5OSwtOTYyODAzOTQyLC05Nj
-I4MDM5NDIsLTUzMzA0Mjg0MSwtMTI1NjU4NDg1NSwtMTI1NjU4
-NDg1NV19
+eyJoaXN0b3J5IjpbOTU4MDYzNjcwLC05NjI4MDM5NDIsLTk2Mj
+gwMzk0MiwtNTMzMDQyODQxLC0xMjU2NTg0ODU1LC0xMjU2NTg0
+ODU1XX0=
 -->
