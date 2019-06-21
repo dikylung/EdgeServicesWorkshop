@@ -92,6 +92,7 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <li>PrivateSubnet1AID</li>
 <li>PublicSubnet1ID</li>
 <li>PublicSubnet2ID<br>
+</ol>
 <img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CloudFormationOutput.png" alt="CloudFormation Output"></li>
 </ul>
 </li>
@@ -366,5 +367,5 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjEzMjU2NF19
+eyJoaXN0b3J5IjpbLTU2NTQ4MDQ4MF19
 -->
