@@ -109,11 +109,12 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
     Security group name: “EdgeServiceLab-ALB”
     Description: “EdgeServiceLab-ALB”
     VPC: “fill in VPCID from Cloudformation output”
-    Then, CREATE.
+Then, CREATE.
+    
     Select newly created Security Group
     Select Inbound Rules -> Edit Rules -> Add Rules
-    Select-> Type: HTTP
-    Save Rules
+	    Select-> Type: HTTP
+	    Save Rules
 
 </li>
 
@@ -175,26 +176,27 @@ Proceed without keypair
 	    Select ap-southeast-1b: Public Subnet 2A
     
     Configure Security Groups
-    Select an existing security group: “EdgeServiceLab-ALB”
+	    Select an existing security group: “EdgeServiceLab-ALB”
+
     Configure Routing
-    Target Group: New Target Group
-    Name: Lab-Target-ALB
-    Target Type: Instance
-    Protocol: HTTP
-    Port: 80
-    Health Check Protocol: HTTP
-    Health Check Path: “/”
-    Advanced Health Check Setting:
-    Port: override: 80
-    Healthy Threshold: 2
-    Unhealthy Threshold: 2
-    Timeout: 4
-    Interval: 5
-    Success Codes: 200
-    Register Targets:
-    Select created EC2 instances from (4).
-    On port: 8080
-    Click “Add to Registered”
+	    Target Group: New Target Group
+	    Name: Lab-Target-ALB
+	    Target Type: Instance
+	    Protocol: HTTP
+	    Port: 80
+	    Health Check Protocol: HTTP
+	    Health Check Path: “/”
+	    Advanced Health Check Setting:
+	    Port: override: 80
+	    Healthy Threshold: 2
+	    Unhealthy Threshold: 2
+	    Timeout: 4
+	    Interval: 5
+	    Success Codes: 200
+	    Register Targets:
+	    Select created EC2 instances from (4).
+	    On port: 8080
+	    Click “Add to Registered”
     
 **Create**
 
@@ -466,7 +468,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTQxNDUwMiwtOTYyODAzOTQyLC05Nj
-I4MDM5NDIsLTUzMzA0Mjg0MSwtMTI1NjU4NDg1NSwtMTI1NjU4
-NDg1NV19
+eyJoaXN0b3J5IjpbNDc2MjI5NTM0LC05NjI4MDM5NDIsLTk2Mj
+gwMzk0MiwtNTMzMDQyODQxLC0xMjU2NTg0ODU1LC0xMjU2NTg0
+ODU1XX0=
 -->
