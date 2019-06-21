@@ -214,7 +214,22 @@ Then, Create
 https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=AWSWAFSecurityAutomations&templateURL=https:%2F%2Fs3.amazonaws.com%2Fsolutions-reference%2Faws-waf-security-automations%2Flatest%2Faws-waf-security-automations.template">AWS Console &gt; CloudFormation (Region: N.Virginia)</a></p>
 </li>
 <li>
-<p>Name your WAF Stack as <code>AWSWAFSecurityAutomations</code>. 
+<p>Set Cloudformation parameters
+
+    Protection List
+	    Activate SQL Injection Protection: Yes
+	    Activate Cross-Site Scripting: Yes
+	    Activate HTTP Flood Protection: yes – AWS Lambda parser
+	    Activate Scanner & Probe: no
+	    Activate Reputation List Protection: Yes
+	    Activate Bad Bot Protection : No
+	    Settings - Endpoint Type: Cloudfront
+	    Application Access Log Bucket: **Leave black**
+    Advanced Settings
+	    Request Threshold: 50
+	    Error Threshold: 50
+	    WAF Block Period: 240
+
 </li>
 <li>
 <p>Fill up Cloudfront Access Log Bucket Name.</p>
@@ -461,5 +476,5 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDk2ODM1NSwtMTg0Mjc4MjgwNl19
+eyJoaXN0b3J5IjpbMTE1MTY5MDM5MCwtMTg0Mjc4MjgwNl19
 -->
