@@ -105,17 +105,6 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <p>Go to <a href="https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId>Security Group Console</a></p>
 </li>
 
-<li>
-<p>Replace the ‘bracketed section’ of the bash script with the values that you obtained from the cloudformation output (in previous section), i.e.  <code>VPCID</code>, <code>PrivateSubnet1AID</code>, <code>PublicSubnet1ID</code>, and <code>PublicSubnet2ID</code></p>
-</li>
-<li>
-<p>Run <code>chmod +x webapp-launch.sh</code>.</p>
-</li>
-<li>
-<p>Run it as bash <code>./webapp-launch.sh &lt;keypair-name&gt;</code></p>
-</li>
-
-
 <h1 id="create-an-edge-to-accelerate-and-protect-your-web-app">Create an Edge to Accelerate and Protect your Web App</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CreateAnEdge.png" alt="enter image description here"></p>
 <h3 id="create-the-owasp-waf-acl">Create the OWASP WAF ACL</h3>
@@ -367,5 +356,5 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTQ4MDQ4MF19
+eyJoaXN0b3J5IjpbLTE2NTUxMzYyMzNdfQ==
 -->
