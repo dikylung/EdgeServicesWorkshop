@@ -99,19 +99,111 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <h1 id="create-the-webapp-environment">Create the Webapp Environment</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/WebGoat.png" alt="CloudFormation Output"></p>
 <p><strong>Instructions how to build webapp environment</strong></p>
-<ol>
+
 <li>
-<p>At your computer, download the <a href="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/webapp-launch.sh">bash script</a> &amp; save as <code>webapp-launch.sh</code></p>
+<p>Go to <a href="https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId>Security Group Console</a></p>
 </li>
 <li>
-<p>Replace the ‘bracketed section’ of the bash script with the values that you obtained from the cloudformation output (in previous section), i.e.  <code>VPCID</code>, <code>PrivateSubnet1AID</code>, <code>PublicSubnet1ID</code>, and <code>PublicSubnet2ID</code></p>
+<p>Create Security Group (For ALB)</p>
+
+
+    Security group name: “EdgeServiceLab-ALB”
+    Description: “EdgeServiceLab-ALB”
+    VPC: “fill in VPCID from Cloudformation output”
+Then, CREATE.
+    
+Next, select newly created Security Group
+
+    Select Inbound Rules -> Edit Rules -> Add Rules
+        Select-> Type: HTTP
+
+Save Rule
+
 </li>
-<li>
-<p>Run <code>chmod +x webapp-launch.sh</code>.</p>
+
+ <li> <p>Create Security Group (For EC2)</p>
+
+    Security group name: “EdgeServiceLab-EC2”
+    Description: “EdgeServiceLab-EC2”
+    VPC: “fill in VPCID from Cloudformation output”
+Then, CREATE.
+Select newly created Security Group
+
+    Select Inbound Rules -> Edit Rules ->
+        Add Rules
+    	    Type: Custom TCP Rule
+    	    Port Range: 8080
+    	    Source: Custom, <ALB security group ID eg. sg-xxxxx>
+        Add Rules
+    	    Type: Custom TCP Rule
+    	    Port Range: 80
+    	    Source: Custom, <ALB security group ID eg. sg-xxxxx>
+
 </li>
-<li>
-<p>Run it as bash <code>./webapp-launch.sh &lt;keypair-name&gt;</code></p>
+
+<li> Launch EC2 instance
+
+<p>Go to <a href=https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard>EC2 Wizard</a>
+
+    Step1: Choose an AMI
+	    Community AMIs: Search - ami-0da69443d6d7e455b
+    Step2: Choose an Instance Type
+	    General Purpose, t2.large
+    Step3: Configure Instance Details
+	    Network: <Provide VPC ID from Cloudformation output >    
+	    Subnet: <Provide Private Subnet ID>
+	
+	  
+
+  Review and Launch
+    
+    Step7: Review Instance Launch
+	    Edit Security Group
+	    Select an existing security group
+		    Select “EdgeServiceLab-EC2”
+Review and Launch
+
+    Select a keypair or create new key pair
+    Proceed without keypair
+
 </li>
+
+<li> Launch ALB
+<p>Go to <a href=https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#V2CreateELBWizard:type=application](https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#V2CreateELBWizard:type=application):>ALB Wizard</a>
+
+    Configure Load Balancer
+    Name: Lab-ALB
+    VPC: <Cloudformation output>
+    Availability Zones:
+	    Select ap-southeast-1a: Public Subnet 1A
+	    Select ap-southeast-1b: Public Subnet 2A
+    
+    Configure Security Groups
+	    Select an existing security group: “EdgeServiceLab-ALB”
+
+    Configure Routing
+	    Target Group: New Target Group
+	    Name: Lab-Target-ALB
+	    Target Type: Instance
+	    Protocol: HTTP
+	    Port: 80
+	    Health Check Protocol: HTTP
+	    Health Check Path: “/”
+	    Advanced Health Check Setting:
+	    Port: override: 80
+	    Healthy Threshold: 2
+	    Unhealthy Threshold: 2
+	    Timeout: 4
+	    Interval: 5
+	    Success Codes: 200
+	    Register Targets:
+	    Select created EC2 instances from (4).
+	    On port: 8080
+	    Click “Add to Registered”
+    
+Then, Create
+
+
 </ol>
 <h1 id="create-an-edge-to-accelerate-and-protect-your-web-app">Create an Edge to Accelerate and Protect your Web App</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CreateAnEdge.png" alt="enter image description here"></p>
@@ -363,6 +455,10 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 <img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CloudWatch.png" alt="enter image description here"></li>
 </ol>
 
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjY4MjI4ODldfQ==
+eyJoaXN0b3J5IjpbLTExNzQzNjkwNTJdfQ==
 -->
