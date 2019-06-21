@@ -100,7 +100,7 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <p><strong>Instructions how to build webapp environment</strong></p>
 <ol>
 <li>
-<p> <a href="Go to https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId</a></p>
+<p>Go to <a href="https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId>Security Group Console</a></p>
 </li>
 <li>
 
@@ -378,7 +378,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDkyNTc3MiwtOTYyODAzOTQyLC05Nj
+eyJoaXN0b3J5IjpbMTM2MTkxMzQ4OCwtOTYyODAzOTQyLC05Nj
 I4MDM5NDIsLTUzMzA0Mjg0MSwtMTI1NjU4NDg1NSwtMTI1NjU4
 NDg1NV19
 -->
