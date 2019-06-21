@@ -136,26 +136,18 @@ Select newly created Security Group
     	    Source: Custom, <ALB security group ID eg. sg-xxxxx>
 
 </li>
-<li>
 
+<li> Launch EC2 instance
 
-Launch EC2 instance
-
-[https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard]
+<a href=https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard></a>
 
     Step1: Choose an AMI
-    
     Community AMIs: Search - ami-0da69443d6d7e455b
-    
     Step2: Choose an Instance Type
-    
     General Purpose, t2.large
-    
     Step3: Configure Instance Details
-    
     Network: <Provide VPC ID from Cloudformation output >    
     Subnet: <Provide Private Subnet ID>
-
     Review and Launch
     Step7: Review Instance Launch
     Edit Security Group
@@ -431,7 +423,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQxODIxNTYsLTk2MjgwMzk0MiwtOT
-YyODAzOTQyLC01MzMwNDI4NDEsLTEyNTY1ODQ4NTUsLTEyNTY1
-ODQ4NTVdfQ==
+eyJoaXN0b3J5IjpbMTcyOTY3Mjg5NywtOTYyODAzOTQyLC05Nj
+I4MDM5NDIsLTUzMzA0Mjg0MSwtMTI1NjU4NDg1NSwtMTI1NjU4
+NDg1NV19
 -->
