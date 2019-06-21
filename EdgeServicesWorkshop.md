@@ -136,7 +136,36 @@ Select newly created Security Group
     	    Source: Custom, <ALB security group ID eg. sg-xxxxx>
 
 </li>
+<li>
 
+
+Launch EC2 instance
+
+[https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard]
+
+    Step1: Choose an AMI
+    
+    Community AMIs: Search - ami-0da69443d6d7e455b
+    
+    Step2: Choose an Instance Type
+    
+    General Purpose, t2.large
+    
+    Step3: Configure Instance Details
+    
+    Network: <Provide VPC ID from Cloudformation output >    
+    Subnet: <Provide Private Subnet ID>
+
+    Review and Launch
+    Step7: Review Instance Launch
+    Edit Security Group
+    Select an existing security group
+    Select “EdgeServiceLab-EC2”
+    Review and Launch
+    Select a keypair or create new key pair
+    Proceed without keypair
+
+</li>
 
 <li>
 <p>At your computer, download the <a href="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/webapp-launch.sh">bash script</a> &amp; save as <code>webapp-launch.sh</code></p>
@@ -402,7 +431,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDU5NjkwLC05NjI4MDM5NDIsLTk2Mj
-gwMzk0MiwtNTMzMDQyODQxLC0xMjU2NTg0ODU1LC0xMjU2NTg0
-ODU1XX0=
+eyJoaXN0b3J5IjpbLTIxMDQxODIxNTYsLTk2MjgwMzk0MiwtOT
+YyODAzOTQyLC01MzMwNDI4NDEsLTEyNTY1ODQ4NTUsLTEyNTY1
+ODQ4NTVdfQ==
 -->
