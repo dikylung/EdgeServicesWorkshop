@@ -256,6 +256,9 @@ https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?
 <p>Leave “Origin Path” empty</p>
 </li>
 <li>
+<p>In “Viewer Protocol Policy”, select <strong>Allowed HTTP Method</strong> “GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE”.</p>
+</li>
+<li>
 <p>In “Default Cache Behaviour Settings”, select <strong>Allowed HTTP Method</strong> “GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE”.</p>
 </li>
 <li>
@@ -526,5 +529,5 @@ After WAF Kicks in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0NDk1MjQ0LDI5MzE0ODE3Ml19
+eyJoaXN0b3J5IjpbOTkzODE1LDI5MzE0ODE3Ml19
 -->
