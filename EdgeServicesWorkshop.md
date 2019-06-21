@@ -101,8 +101,26 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <p><strong>Instructions how to build webapp environment</strong></p>
 <ol>
 <li>
-<p>At your computer, download the <a href="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/webapp-launch.sh">bash script</a> &amp; save as <code>webapp-launch.sh</code></p>
+<p>Go to <a href="https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId>Security Group Console</a></p>
 </li>
+<li>
+<p>Create Security Group (For ALB)</p>
+
+
+    Security group name: “EdgeServiceLab-ALB”
+    Description: “EdgeServiceLab-ALB”
+    VPC: “fill in VPCID from Cloudformation output”
+Then, CREATE.
+    
+Next, select newly created Security Group
+
+    Select Inbound Rules -> Edit Rules -> Add Rules
+        Select-> Type: HTTP
+
+Save Rule
+
+</li>
+
 <li>
 <p>Replace the ‘bracketed section’ of the bash script with the values that you obtained from the cloudformation output (in previous section), i.e.  <code>VPCID</code>, <code>PrivateSubnet1AID</code>, <code>PublicSubnet1ID</code>, and <code>PublicSubnet2ID</code></p>
 </li>
@@ -364,5 +382,5 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjY4MjI4ODldfQ==
+eyJoaXN0b3J5IjpbMTk1MzI3NjI3N119
 -->
