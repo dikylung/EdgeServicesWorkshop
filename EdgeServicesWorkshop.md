@@ -362,3 +362,6 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 <img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CloudWatch.png" alt="enter image description here"></li>
 </ol>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyNTY1ODQ4NTVdfQ==
+-->
