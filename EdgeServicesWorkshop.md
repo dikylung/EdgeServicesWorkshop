@@ -379,7 +379,16 @@ e) Click Create Behaviour
 <h1 id="how-cloudfront-improves-performance-and-waf-secures-your-environment">How Cloudfront improves performance and WAF secures your environment</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/ContentsWAFOverview.png" alt="enter image description here"></p>
 
-<h3 id="serving-content-via-aws-cloudfront-and-having-aws-waf-securing-your-environment">Associate AWS WAF with AWS Clou</h3>
+<h3 id="associating-waf-with-cloudfront">Associate AWS WAF with AWS Cloudfront</h3>
+
+Go to [https://console.aws.amazon.com/waf/home#/webacls](https://console.aws.amazon.com/waf/home#/webacls)
+Select Newly Created WebACL
+
+Select “Rules” Tab
+Click “Add Association”
+Resource Type: Cloudfront
+Resource: <Select Cloudfront Resource>
+Click “Add”
 
 <h3 id="serving-content-via-aws-cloudfront-and-having-aws-waf-securing-your-environment">Serving Content via AWS Cloudfront and Having AWS WAF Securing your Environment</h3>
 <p><strong>Static Content Cached</strong></p>
@@ -473,5 +482,6 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MDg4MDI5NCwtMTQyMDQzMzQwM119
+eyJoaXN0b3J5IjpbLTE2Nzg2MDA2NDAsLTE0MjA0MzM0MDNdfQ
+==
 -->
