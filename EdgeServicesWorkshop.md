@@ -139,21 +139,26 @@ Select newly created Security Group
 
 <li> Launch EC2 instance
 
-<a href=https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard></a>
+<p>Go to <a href=https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LaunchInstanceWizard>EC2 Wizard</a>
 
     Step1: Choose an AMI
-    Community AMIs: Search - ami-0da69443d6d7e455b
+	    Community AMIs: Search - ami-0da69443d6d7e455b
     Step2: Choose an Instance Type
-    General Purpose, t2.large
+	    General Purpose, t2.large
     Step3: Configure Instance Details
-    Network: <Provide VPC ID from Cloudformation output >    
-    Subnet: <Provide Private Subnet ID>
-    Review and Launch
+	    Network: <Provide VPC ID from Cloudformation output >    
+	    Subnet: <Provide Private Subnet ID>
+	
+	  
+
+  Review and Launch
+    
     Step7: Review Instance Launch
-    Edit Security Group
+	    Edit Security Group
     Select an existing security group
     Select “EdgeServiceLab-EC2”
-    Review and Launch
+Review and Launch
+
     Select a keypair or create new key pair
     Proceed without keypair
 
@@ -422,8 +427,9 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 <img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CloudWatch.png" alt="enter image description here"></li>
 </ol>
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTY3Mjg5NywtOTYyODAzOTQyLC05Nj
+eyJoaXN0b3J5IjpbMTk0NzM2MDEzMywtOTYyODAzOTQyLC05Nj
 I4MDM5NDIsLTUzMzA0Mjg0MSwtMTI1NjU4NDg1NSwtMTI1NjU4
 NDg1NV19
 -->
