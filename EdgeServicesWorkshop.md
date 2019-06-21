@@ -207,7 +207,7 @@ Then, Create
 </ol>
 <h1 id="create-an-edge-to-accelerate-and-protect-your-web-app">Create an Edge to Accelerate and Protect your Web App</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CreateAnEdge.png" alt="enter image description here"></p>
-<h3 id="create-the-owasp-waf-acl">Create the OWASP WAF ACL</h3>
+<h3 id="create-the-owasp-waf-acl">Create the WAF ACL</h3>
 <ol>
 <li>
 <p>Go to <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-1#/stacks/new?stackName=AWSWAFSecurityAutomations&amp;templateURL=https:%2F%2Fs3.amazonaws.com%2Fsolutions-reference%2Faws-waf-security-automations%2Flatest%2Faws-waf-security-automations.template">AWS Console &gt; CloudFormation (Region: Singapore)</a></p>
@@ -460,5 +460,6 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI3ODI4MDZdfQ==
+eyJoaXN0b3J5IjpbLTIxMTQyOTYzNjQsLTE4NDI3ODI4MDZdfQ
+==
 -->
