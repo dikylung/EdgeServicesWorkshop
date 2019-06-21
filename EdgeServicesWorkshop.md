@@ -391,7 +391,15 @@ Select Newly Created WebACL
 	    Resource: <Select Cloudfront Resource>
 	    Click “Add”
 
-<h3 id="Analyze WAF Logs Every Minute to Enable Blacklisting in 1-minute">Associate AWS WAF with AWS Cloudfront</h3>
+<h3 id="one-minute-analysis-waf">Analyze WAF Logs Every Minute"</h3>
+
+Go to https://us-east-1.console.aws.amazon.com/firehose/home?region=us-east-1#/dashboard/list
+
+Select newly create Firehose stream
+
+    Click “Edit”
+    Scroll to “Amazon S3 destination“
+    Buffer Interval: 60
 
 <h3 id="serving-content-via-aws-cloudfront-and-having-aws-waf-securing-your-environment">Serving Content via AWS Cloudfront and Having AWS WAF Securing your Environment</h3>
 <p><strong>Static Content Cached</strong></p>
@@ -518,6 +526,7 @@ After WAF Kicks in
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODg0MzQ2MDgsLTU0MDMxMjgwMV19
+eyJoaXN0b3J5IjpbLTE0MTcyMjUxNjMsLTU0MDMxMjgwMV19
 -->
