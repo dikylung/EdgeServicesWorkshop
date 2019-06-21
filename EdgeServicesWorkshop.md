@@ -95,11 +95,11 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CloudFormationOutput.png" alt="CloudFormation Output"></li>
 </ul>
 </li>
-</ol>
+
 <h1 id="create-the-webapp-environment">Create the Webapp Environment</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/WebGoat.png" alt="CloudFormation Output"></p>
 <p><strong>Instructions how to build webapp environment</strong></p>
-<ol>
+
 <li>
 <p>Go to <a href="https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId>Security Group Console</a></p>
 </li>
@@ -113,7 +113,8 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <li>
 <p>Run it as bash <code>./webapp-launch.sh &lt;keypair-name&gt;</code></p>
 </li>
-</ol>
+
+
 <h1 id="create-an-edge-to-accelerate-and-protect-your-web-app">Create an Edge to Accelerate and Protect your Web App</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CreateAnEdge.png" alt="enter image description here"></p>
 <h3 id="create-the-owasp-waf-acl">Create the OWASP WAF ACL</h3>
@@ -365,5 +366,5 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDEwNDM0OV19
+eyJoaXN0b3J5IjpbLTcwNjEzMjU2NF19
 -->
