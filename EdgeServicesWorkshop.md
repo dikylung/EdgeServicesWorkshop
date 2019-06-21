@@ -395,11 +395,12 @@ Select Newly Created WebACL
 
 Go to https://us-east-1.console.aws.amazon.com/firehose/home?region=us-east-1#/dashboard/list
 
-Select newly create Firehose stream
+Select newly created Firehose stream provisioned by Cloudformation template 
 
     Click “Edit”
     Scroll to “Amazon S3 destination“
     Buffer Interval: 60
+    Save
 
 <h3 id="serving-content-via-aws-cloudfront-and-having-aws-waf-securing-your-environment">Serving Content via AWS Cloudfront and Having AWS WAF Securing your Environment</h3>
 <p><strong>Static Content Cached</strong></p>
@@ -528,5 +529,5 @@ After WAF Kicks in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTcyMjUxNjMsLTU0MDMxMjgwMV19
+eyJoaXN0b3J5IjpbMTE0MTM2NzI3N119
 -->
