@@ -117,17 +117,23 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 
 </li>
 <li>
-<p>Create Security Group (For ALB)</p>
+<p>Create Security Group (For EC2)</p>
 
-
-    Security group name: “EdgeServiceLab-ALB”
-    Description: “EdgeServiceLab-ALB”
+    Security group name: “EdgeServiceLab-EC2”
+    Description: “EdgeServiceLab-EC2”
     VPC: “fill in VPCID from Cloudformation output”
     Then, CREATE.
+    
     Select newly created Security Group
-    Select Inbound Rules -> Edit Rules -> Add Rules
-    Select-> Type: HTTP
-    Save Rules
+    Select Inbound Rules -> Edit Rules ->
+	    Add Rules
+	    Type: Custom TCP Rule
+	    Port Range: 8080
+	    Source: Custom, <ALB security group ID eg. sg-xxxxx>
+    Add Rules
+    Type: Custom TCP Rule
+    Port Range: 80
+    Source: Custom, <ALB security group ID eg. sg-xxxxx>
 
 </li>
 
@@ -396,7 +402,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjQ5NDExMSwtOTYyODAzOTQyLC05Nj
+eyJoaXN0b3J5IjpbLTk2NDYyODU0NSwtOTYyODAzOTQyLC05Nj
 I4MDM5NDIsLTUzMzA0Mjg0MSwtMTI1NjU4NDg1NSwtMTI1NjU4
 NDg1NV19
 -->
