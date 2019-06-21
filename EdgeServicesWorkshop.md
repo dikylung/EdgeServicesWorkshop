@@ -98,7 +98,7 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <h1 id="create-the-webapp-environment">Create the Webapp Environment</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/WebGoat.png" alt="CloudFormation Output"></p>
 <p><strong>Instructions how to build webapp environment</strong></p>
-<ol>
+
 <li>
 <p>Go to <a href="https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId>Security Group Console</a></p>
 </li>
@@ -117,8 +117,7 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 
 </li>
 
-<li>
-<p>Create Security Group (For EC2)</p>
+ <li> <p>Create Security Group (For EC2)</p>
 
     Security group name: “EdgeServiceLab-EC2”
     Description: “EdgeServiceLab-EC2”
@@ -403,7 +402,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTU3NzcwOSwtOTYyODAzOTQyLC05Nj
-I4MDM5NDIsLTUzMzA0Mjg0MSwtMTI1NjU4NDg1NSwtMTI1NjU4
-NDg1NV19
+eyJoaXN0b3J5IjpbLTczNDU5NjkwLC05NjI4MDM5NDIsLTk2Mj
+gwMzk0MiwtNTMzMDQyODQxLC0xMjU2NTg0ODU1LC0xMjU2NTg0
+ODU1XX0=
 -->
