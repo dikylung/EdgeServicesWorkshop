@@ -274,9 +274,6 @@ https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?
 <p>In “Distribution Setting”, Select <strong>Price Class</strong> as “US, Canada, Europe, Asia and Africa”</p>
 </li>
 <li>
-<p>In “Distribution Setting”, Select <strong>AWS WAF Web ACL</strong> as “fabiantanwaf” &lt;- this would be the WAF ACL you’ve created earlier.</p>
-</li>
-<li>
 <p>Once completed, go to the bottom right to click “Create Distribution”</p>
 </li>
 <li>
@@ -388,7 +385,7 @@ Select Newly Created WebACL
     Select “Rules” Tab
     Click “Add Association”
 	    Resource Type: Cloudfront
-	    Resource: <Select Cloudfront Resource>
+	    Resource: <Select Cloudfront Resource created>
 	    Click “Add”
 
 <h3 id="one-minute-analysis-waf">Analyze WAF Logs Every Minute</h3>
@@ -529,5 +526,5 @@ After WAF Kicks in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg3NzkyNzddfQ==
+eyJoaXN0b3J5IjpbMjkzMTQ4MTcyXX0=
 -->
