@@ -100,18 +100,7 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 <p><strong>Instructions how to build webapp environment</strong></p>
 <ol>
 <li>
-<p>At your computer, download the <a href="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/webapp-launch.sh">bash script</a> &amp; save as <code>webapp-launch.sh</code></p>
-</li>
-<li>
-<p>Replace the ‘bracketed section’ of the bash script with the values that you obtained from the cloudformation output (in previous section), i.e.  <code>VPCID</code>, <code>PrivateSubnet1AID</code>, <code>PublicSubnet1ID</code>, and <code>PublicSubnet2ID</code></p>
-</li>
-<li>
-<p>Run <code>chmod +x webapp-launch.sh</code>.</p>
-</li>
-<li>
-<p>Run it as bash <code>./webapp-launch.sh &lt;keypair-name&gt;</code></p>
-</li>
-</ol>
+
 <h1 id="create-an-edge-to-accelerate-and-protect-your-web-app">Create an Edge to Accelerate and Protect your Web App</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CreateAnEdge.png" alt="enter image description here"></p>
 <h3 id="create-the-owasp-waf-acl">Create the OWASP WAF ACL</h3>
@@ -363,5 +352,5 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 </ol>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTY1ODQ4NTVdfQ==
+eyJoaXN0b3J5IjpbMjAzODQ3ODUyMywtMTI1NjU4NDg1NV19
 -->
