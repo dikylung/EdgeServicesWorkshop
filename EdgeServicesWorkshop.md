@@ -478,7 +478,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 <img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CloudWatch.png" alt="enter image description here"></li>
 
 <ol start="12">
-<li> Test out DoS attack against site – 2 request every second.
+<p><li> Test out DoS attack against site – 2 request every second.
 
     while true; do curl -kI 'https://<cloudfront url>.cloudfront.net/WebGoat/css/main.css' ; sleep 0.5; done
 
@@ -520,5 +520,5 @@ After WAF Kicks in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5NDIxMDQ3XX0=
+eyJoaXN0b3J5IjpbNDU1MDQ2MzMzLDUzOTQyMTA0N119
 -->
