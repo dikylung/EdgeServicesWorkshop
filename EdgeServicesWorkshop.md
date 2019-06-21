@@ -409,7 +409,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 <p><strong>NOTE:</strong> In order to get the cache hit, you need to repeat the url hitting at least two times. Usually first time is seeding the cache, so you will get cache miss. Second time onwards hitting will get the cache hit</p>
 </blockquote>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/cachehit-cachemiss.png" alt="enter image description here"></p>
-<p><strong>With AWS Cloudfront, can your entire webapp be delivered via AWS Cloudfront?</strong></p>
+<p><strong>Can your entire webapp, including dynamic content,  be delivered via AWS Cloudfront?</strong></p>
 <ol>
 <li>
 <p>Go to <a href="%5Bhttps://console.aws.amazon.com/cloudfront/home%5D(https://console.aws.amazon.com/cloudfront/home)">AWS Console</a></p>
@@ -470,5 +470,5 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4NzA4NjUxLDExODU1MjcwMThdfQ==
+eyJoaXN0b3J5IjpbLTE0MjA0MzM0MDNdfQ==
 -->
