@@ -435,7 +435,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 <p><strong>Can your entire webapp, including dynamic content,  be delivered via AWS Cloudfront?</strong></p>
 <ol>
 <li>
-<p>Go to <a href="%5Bhttps://console.aws.amazon.com/cloudfront/home%5D(https://console.aws.amazon.com/cloudfront/home)">AWS Console</a></p>
+<p>Go to <a href=https://console.aws.amazon.com/cloudfront/home>AWS Console</a></p>
 </li>
 <li>
 <p>Select Cloudfront distribution with your Name e.g. fabiantan on the search bar on the web console</p>
