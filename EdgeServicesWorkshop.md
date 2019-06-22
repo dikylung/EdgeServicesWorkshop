@@ -325,7 +325,7 @@ e) Click Create Behaviour
 </blockquote>
 <ol>
 <li>
-<p>Go to <a href="%5Bhttps://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LoadBalancers:sort=loadBalancerName%5D(https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LoadBalancers:sort=loadBalancerName)">AWS Console &gt; Load Balancer (Region: Singapore)</a></p>
+<p>Go to <a href=https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LoadBalancers:sort=loadBalancerName%5D(https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LoadBalancers:sort=loadBalancerName)>AWS Console Load Balancer (Region: Singapore)</a></p>
 </li>
 <li>
 <p>Select Load Balancer with your Name e.g. fabiantan on the search bar on the web console</p>
