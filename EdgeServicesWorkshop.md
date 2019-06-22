@@ -82,7 +82,6 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizab
 <p><strong>Parameters:</strong><br>
 Availability Zones: <code>ap-southeast-1a</code> &amp; <code>ap-southeast-1b</code><br>
 Number of Availability Zones : 2<br>
-KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 </blockquote>
 </li>
 <li>
