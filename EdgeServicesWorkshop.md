@@ -71,7 +71,7 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizab
 <p><a href="#how-cloudfront-improves-performance-and-waf-secures-your-environment">How Cloudfront improves performance and WAF secures your environment </a></p>
 </li>
 </ul>
-<h1 id="create-vpc-environment">Create VPC Environment</h1>
+<h1 id="create-vpc-environment">Create VPC Environment in Singapore Region</h1>
 <ol>
 <li>
 <p>Load <a href="https://ap-southeast-1.console.aws.amazon.com/cloudformation/home?region=ap-southeast-1#/stacks/new?stackName=Quick-Start-VPC&amp;templateURL=https://aws-quickstart.s3.amazonaws.com/quickstart-aws-vpc/templates/aws-vpc.template">VPC Quick Start</a> Cloudformation Template on AWS Web Console</p>
@@ -98,7 +98,7 @@ KeyPair : <code>&lt;put in valid key pair&gt;</code></p>
 </ol>
 <h1 id="create-the-webapp-environment">Create the Webapp Environment</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/WebGoat.png" alt="CloudFormation Output"></p>
-<p><strong>Instructions how to build webapp environment</strong></p>
+<p><strong>Instructions how to build webapp environment in the AWS Singapore region</strong></p>
 
 <li>
 <p>Go to <a href="https://ap-southeast-1.console.aws.amazon.com/vpc/home?region=ap-southeast-1#SecurityGroups:sort=groupId">Security Group Console</a></p>
@@ -207,7 +207,7 @@ Then, Create
 </ol>
 <h1 id="create-an-edge-to-accelerate-and-protect-your-web-app">Create an Edge to Accelerate and Protect your Web App</h1>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CreateAnEdge.png" alt="enter image description here"></p>
-<h3 id="create-the-owasp-waf-acl">Create the WAF ACL</h3>
+<h3 id="create-the-owasp-waf-acl">Create a GLOBAL WAF ACL (to be associated to Cloudfront)</h3>
 <ol>
 <li>
 <p>Go to <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=AWSWAFSecurityAutomations&templateURL=https:%2F%2Fs3.amazonaws.com%2Fsolutions-reference%2Faws-waf-security-automations%2Flatest%2Faws-waf-security-automations.template">AWS Console &gt; CloudFormation (Region: N.Virginia)</a></p>
