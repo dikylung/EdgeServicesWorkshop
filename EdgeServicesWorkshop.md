@@ -404,15 +404,15 @@ Select newly created Firehose stream provisioned by Cloudformation template
 <h3 id="serving-content-via-aws-cloudfront-and-having-aws-waf-securing-your-environment">Serving Content via AWS Cloudfront and Having AWS WAF Securing your Environment</h3>
 <p><strong>Static Content Cached</strong></p>
 <p>Run the following at your terminal:</p>
-<pre><code>curl -kI http://&lt;cloudfront distribution endpoint&gt;/WebGoat/css/img/logoBG.jpg
-curl -kI http://&lt;cloudfront distribution endpoint&gt;/WebGoat/css/main.css
-curl -kI http://&lt;cloudfront distribution endpoint&gt;/WebGoat/js/main.js
+<pre><code>curl -kI https://&lt;cloudfront distribution endpoint&gt;/WebGoat/css/img/logoBG.jpg
+curl -kI https://&lt;cloudfront distribution endpoint&gt;/WebGoat/css/main.css
+curl -kI https://&lt;cloudfront distribution endpoint&gt;/WebGoat/js/main.js
 </code></pre>
 <p><strong><em>How do you know if your static content is cached?</em></strong></p>
 <blockquote>
 <p>Example:</p>
 </blockquote>
-<pre><code>curl -kI http://d2vlggwak7sn2j.cloudfront.net/WebGoat/css/main.css
+<pre><code>curl -kI https://d2vlggwak7sn2j.cloudfront.net/WebGoat/css/main.css
 HTTP/1.1 200 OK
 Content-Type: text/css
 Content-Length: 19986
