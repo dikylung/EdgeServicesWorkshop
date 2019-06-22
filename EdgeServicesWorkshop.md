@@ -201,7 +201,7 @@ Review and Launch
 	    On port: 8080
 	    Click “Add to Registered”
     
-Then, Click "Next:Review"
+Then, Click "Next:Review" - Create
 
 
 </ol>
