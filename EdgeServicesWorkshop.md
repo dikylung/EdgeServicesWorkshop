@@ -234,7 +234,7 @@ Then, Click "Next:Review" - Create
 <p>Click “Next” and “Next”.</p>
 </li>
 <li>
-<p>Finally, at the bottom of the page, click “<em>I acknowledge that AWS CloudFormation might create IAM resources.</em>” and click “Create”</p>
+<p>Finally, at the bottom of the page, click “<em>I acknowledge</em>” requirements and click “Create”</p>
 </li>
 </ol>
 <h3 id="create-cloudfront-distribution--edit-behaviour">Create Cloudfront Distribution &amp; Edit Behaviour</h3>
