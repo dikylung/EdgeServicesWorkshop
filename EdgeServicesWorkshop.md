@@ -444,7 +444,7 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 <p>Copy the DNS Name of Cloudfront e.g. <code>d2vlggwak7sn2j.cloudfront.net</code></p>
 </li>
 <li>
-<p>On your Google Chrome, Open <code>http://&lt;cloudfront endpoint&gt;/WebGoat</code></p>
+<p>On your Google Chrome, Open <code>https://&lt;cloudfront endpoint&gt;/WebGoat</code></p>
 </li>
 <li>
 <p>On Google Chrome, open up “View-&gt;Developer-&gt;Developer Tools” .</p>
