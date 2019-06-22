@@ -150,7 +150,7 @@ Select newly created Security Group
 	    General Purpose, t2.large
     Step3: Configure Instance Details
 	    Network: <Provide VPC ID from Cloudformation output >    
-	    Subnet: <Provide Private Subnet ID>
+	    Subnet: <Provide Private Subnet ID> eg. private subnet 1A
 	
 	  
 
