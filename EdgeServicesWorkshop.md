@@ -213,6 +213,7 @@ Then, Create
 <p>Go to <a href="
 https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=AWSWAFSecurityAutomations&templateURL=https:%2F%2Fs3.amazonaws.com%2Fsolutions-reference%2Faws-waf-security-automations%2Flatest%2Faws-waf-security-automations.template">AWS Console &gt; CloudFormation (Region: N.Virginia)</a></p>
 </li>
+<p>Go to <a href="https://console.aws.amazon.com/cloudfront/home">AWS Console</a> top banner &gt; Services &gt; CloudFront</p>
 <li>
 <p>Set Cloudformation parameters
 
@@ -529,5 +530,5 @@ After WAF Kicks in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0MDc2MTVdfQ==
+eyJoaXN0b3J5IjpbLTE1OTM5MTMxMCw5NjQwNzYxNV19
 -->
