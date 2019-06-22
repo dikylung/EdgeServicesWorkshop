@@ -195,12 +195,13 @@ Review and Launch
 	    Timeout: 4
 	    Interval: 5
 	    Success Codes: 200
-	    Register Targets:
-	    Select created EC2 instances from (4).
+	    
+	    Next, Click "Register Targets":
+	    Select created EC2 instance created before.
 	    On port: 8080
 	    Click “Add to Registered”
     
-Then, Create
+Then, Click "Next:Review"
 
 
 </ol>
