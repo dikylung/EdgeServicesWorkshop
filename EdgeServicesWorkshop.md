@@ -328,7 +328,7 @@ e) Click Create Behaviour
 <p>Go to <a href=https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LoadBalancers:sort=loadBalancerName%5D(https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#LoadBalancers:sort=loadBalancerName)>AWS Console Load Balancer (Region: Singapore)</a></p>
 </li>
 <li>
-<p>Select Load Balancer with your Name e.g. fabiantan on the search bar on the web console</p>
+<p>Select Load Balancer you just created e.g. lab-ALB on the search bar on the web console</p>
 </li>
 <li>
 <p>Copy the DNS Name e.g. <a href="http://fabiantan2-ALB-141106376.ap-southeast-1.elb.amazonaws.com">fabiantan2-ALB-141106376.ap-southeast-1.elb.amazonaws.com</a><br>
